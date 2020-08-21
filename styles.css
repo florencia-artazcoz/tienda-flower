@@ -1,0 +1,386 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom:30px;
+    margin-top: 60px;
+}
+p{
+    font-size: 18px;
+    color: #2b2d42;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+
+
+
+
+/*navbar y galeria*/
+
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 2px 4px o rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link{
+    color: #2b2d42;
+}
+
+.nav-link:hover{
+    color: #028090;
+}
+
+.logo-brand{
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+
+#hero{
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    padding-top: 320px;
+    min-height: 700px;
+    color: #fff;
+}
+#hero p{
+    color: #fff;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.galeria-container{
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    border-radius:5px;
+}
+
+.galeria-container img{
+-moz-transition: all 0.8s;
+-webkit-transition: 0.8s;
+transition: all 0.8s;
+}
+
+.galeria-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.galeria-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.galeria-details h2{
+    margin-bottom: 0px;
+    color: #fff;
+
+}
+.galeria-details p{
+    color: #fff;
+}
+
+.topmargin-sm p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+/*termina navbar y galeria*/
+
+
+
+/*Nosotros*/
+
+.bg-light-grey{
+    background-color: #f5f5f5;
+    height: 700px;
+    margin-top:80px;
+}
+
+#nosotros h2{
+    padding-top: 60px;
+}
+
+.member-container{
+    position: relative;
+    margin: 15px;
+}
+
+.member-details{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 20px;
+}
+
+h5{
+    margin-bottom: 0px;
+}
+
+
+.member-details span{
+    font-size: 14px;
+}
+
+.member-details i{
+    padding: 0 5px;
+}
+
+.list-inline-item a{
+    font-size: 22px;
+    color: #fff;
+}
+
+/*termina nosotros*/
+
+
+
+/*empieza testimonios*/
+.carousel{
+    min-height: 240px;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #8d99ae;
+}
+
+.rating ion-icon{
+    color: #fcbf49;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.carousel-indicatiors li{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+color: #fff;
+opacity: 1;
+width: 5%;
+}
+
+.carousel-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.control-button{
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonial-user{
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6{
+    margin-bottom: 0px;
+}
+
+.testimonial-user span{
+    font-size:12px;
+}
+
+.testimonial-user img{
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+.divider{
+    border-bottom: 2px solid #f5f5f5;
+}
+
+/*termina testimonios*/
+
+
+
+/*contacto*/
+h3{
+    margin-top: 100px;
+}
+
+#contact p{
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+#contact {
+margin-bottom: 200px;
+}
+
+.form-control{
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.btn {
+    width:100%;
+
+}
+.form-control:focus{
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+#contact .row{
+    margin-top: 50px;
+}
+/* termina contacto*/
+
+
+/* Empieza footer*/
+.bg-dark{
+    background-color: #1a1a1a;
+}
+
+#footer{
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a{
+    font-size: 17px;
+}
+
+#footer a:hover{
+    color:#fcbf49;
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 5px 5px;
+}
+/* termina footer*/
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .carousel-item p{ font-size:20px;}
+    #testimonial{ margin-top:760px;}
+    .control-button{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        border: 1px solid #1a1a1a;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        color: #fff;
+        opacity: 1;
+        width: 10%;
+        size: 50%;
+        }
+
+
+    h3{margin-top: 20px;}
+    #contact {margin-bottom: 70px;}
+    #footer{padding: 20px 0;}
+
+    .galeria-container h2{
+        font-size: 30px;
+        font-weight: 600; }
+
+    h1{
+    font-size:50px;
+    line-height: normal;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    #testimonial{ margin-top:1250px;}
+    .control-button{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        border: 1px solid #1a1a1a;
+        border-radius: 20px;
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        color: #fff;
+        opacity: 1;
+        width: 10%;
+        size: 50%;
+        }
+
+
+    h3{margin-top: 20px;}
+    #contact {margin-bottom: 70px;}
+    #footer{padding: 20px 0;}
+
+    .galeria-container h2{
+        font-size: 30px;
+        font-weight: 600; }
+
+    h1{
+    font-size:50px;
+    line-height: normal;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
